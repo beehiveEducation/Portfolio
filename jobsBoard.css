@@ -1,0 +1,73 @@
+.container {
+    align-items:center;
+    font-family:Lato;
+    text-align:center;
+    width:90%;
+    margin:auto;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.jobsContainer {
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.card {
+    border:1px solid black;
+    height:250px; 
+    flex:25%;
+    border-radius:none;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+}
+
+.title {
+    text-align:center;
+    font-weight:800;
+    font-size:2rem;
+    padding:5px;
+}
+
+.information {
+    width:95%;
+    margin:auto;
+    text-align:center;
+    font-size:21px;
+}
+
+.date {
+    width:50%;
+    margin:auto;
+    text-align:center;
+    background-color:#0055b3;
+    color:white;
+    border-radius:3px;
+    padding:5px;
+    align-items:flex-end;
+    /* position:absolute; */
+}
+
+button {
+    border-radius: 3px;
+    margin-top:2rem;
+    padding:10px;
+    padding-left:25px;
+    padding-right:25px;
+    font-size:24px;
+    border:none;
+    background-color:	#00A36C;
+    font-weight:600;
+    color:white;
+}
+
+button:hover {
+    cursor:pointer;
+}
